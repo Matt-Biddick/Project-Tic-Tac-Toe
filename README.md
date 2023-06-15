@@ -7,3 +7,10 @@ Hoping to learn some useful fundamentals and refine the code over several versio
 All feedback welcome!
 
 - Matt
+
+Skills used:
+- While looping 
+- Global variables
+- F-Strings
+- User input
+- Functional programming
