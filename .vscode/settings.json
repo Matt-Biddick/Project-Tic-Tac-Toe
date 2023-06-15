@@ -4,4 +4,5 @@
     "editor.formatOnPaste": true,
     "editor.fontFamily": "Jetbrains Mono",
     "editor.fontLigatures": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
