@@ -1,6 +1,6 @@
 import random
 
-print("Welcome to Tic Tac Toe!")
+print("Welcome to TicTacToe!")
 print("-----------------------")
 
 possibleNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]

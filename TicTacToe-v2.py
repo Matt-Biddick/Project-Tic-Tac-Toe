@@ -71,7 +71,7 @@ def checkTie(board):
 
 def checkWin():
     if checkDiagonal(board) or checkHorizontal(board) or checkVertical(board):
-        print(f"The winner is {winner}!")
+        print(f"The winner is {winner}! Congratulations!")
 
 
 # switch the player
