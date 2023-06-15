@@ -1,4 +1,4 @@
-# Project-Tic-Tac-Toe
+# Project-TicTacToe
 
 My first attempt at building the game TicTacToe in Python using different approaches.
 
