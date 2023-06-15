@@ -5,14 +5,19 @@ currentPlayer = "X"
 winner = None
 gameRunning = True
 
+print("\nWelcome to TicTacToe. Let's play!")
+print("You are X, the computer is O\nYour move :)")
+
 
 # print the game board
 def printBoard(board):
+    print("")
     print(board[0] + " | " + board[1] + " | " + board[2])
     print("---------")
     print(board[3] + " | " + board[4] + " | " + board[5])
     print("---------")
     print(board[6] + " | " + board[7] + " | " + board[8])
+    print("")
 
 
 # take player input
@@ -71,7 +76,9 @@ def checkTie(board):
 
 def checkWin():
     if checkDiagonal(board) or checkHorizontal(board) or checkVertical(board):
+        printBoard(board)
         print(f"The winner is {winner}! Congratulations!")
+        exit()
 
 
 # switch the player
